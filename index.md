@@ -15,8 +15,6 @@ Empowering CFOs, HR leaders, and analytics teams to make better workforce decisi
 - [Who are we](./WhoAreWe) — Interactive hierarchy visualization for workforce design  
 - [Org Chart Drag & Drop](./orgchart) — Interactive hierarchy visualization for workforce design  
 - [Family Tree Visual](./familytree) — Visualize relationships across teams or generations  
-- [Org Chart Documentation](./orgchart-docs) — Setup and usage guide  
-- [Family Tree Documentation](./familytree-docs) — Features and configuration  
 - [Data Security & Flow Overview](./data-security) — How we handle local storage and data privacy  
 
 ---

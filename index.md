@@ -30,16 +30,15 @@ Our software is trusted across every continent and supports **50+ organizations 
 ---
 
 ## 📺 Watch Our Latest Demo
-🎥 [Watch the Org Chart Visual in action on YouTube](https://www.youtube.com/)  
-📚 [Read our documentation for setup and best practices](./orgchart-docs)
+🎥 [Watch the Org Chart Visual in action on YouTube]([https://www.youtube.com/](https://www.youtube.com/watch?v=0PyXxH2HvJc))  
+📚 [Read our documentation for setup and best practices](./orgchart)
 
 ---
 
 ## 🤝 Connect With Us
 
-- 🌐 [Visit our website](https://workforcevision.com)
-- 💼 [Connect on LinkedIn](https://www.linkedin.com/company/workforcevision/)
-- 📧 Email: [contact@workforcevision.com](mailto:contact@workforcevision.com)
+- 💼 [Connect on LinkedIn](https://www.linkedin.com/company/workforce-vision-ltd)
+- 📧 Email: [irawatt@workforcevision.com](mailto:irawatt@workforcevision.com)
 
 ---
 

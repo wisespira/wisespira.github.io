@@ -38,6 +38,6 @@ Our software is trusted across every continent and supports **50+ organizations 
 ## 🤝 Connect With Us
 
 - 💼 [Connect on LinkedIn](https://www.linkedin.com/company/workforce-vision-ltd)
-- 📧 Email: [irawatt@workforcevision.com](mailto:irawatt@workforcevision.com)
+- 📧 Email: [irawatt@workforcevision.co.uk](mailto:irawatt@workforcevision.co.uk)
 
 

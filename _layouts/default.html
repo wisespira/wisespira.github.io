@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: 'en-US' }}">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }} | {{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-  </head>
+    <div class="wrapper">
+        <a href="{{ '/' | relative_url }}">
+            <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="WorkforceVision Logo" style="height:60px; margin:10px 0;">
+        </a>
+    </div>
+
+</head>
   <body>
     <section class="page-header">
       <h1 class="project-name">{{ site.title }}</h1>

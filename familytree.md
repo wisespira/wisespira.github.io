@@ -78,7 +78,7 @@ Each row in your data table corresponds to one node in the visual.
 
 We welcome feedback, ideas, and questions.  
 You can reach us at:  
-📧 [IraWatt@HumanResourceIntelligence.onmicrosoft.com](mailto:IraWatt@HumanResourceIntelligence.onmicrosoft.com)
+📧 [IraWatt@WorkforceVision.co.uk](mailto:IraWatt@WorkforceVision.co.uk)
 
 ---
 

@@ -23,25 +23,23 @@ United Kingdom
 NE43 7EJ  
 
 **Domain:** [https://workforcevision.co.uk](https://workforcevision.co.uk)  
-**Alternate Domain:** [https://workforcevision.com](https://workforcevision.com)
+**Companies House:** [Companies House](https://find-and-update.company-information.service.gov.uk/company/15827142)  
 
 ---
 
 ## 📞 Contact Information
 
-**General Enquiries:** [contact@workforcevision.co.uk](mailto:contact@workforcevision.co.uk)  
-**Support Enquiries:** [support@workforcevision.co.uk](mailto:support@workforcevision.co.uk)  
+**General & Support Enquiries:** [irawatt@workforcevision.co.uk](mailto:irawatt@workforcevision.co.uk)  
 **Director:** Ira Watt  
-**Phone:** +44 7508 116845  
 
 ---
 
 ## 💼 Social & Professional Links
 
 - 🌐 **Website:** [https://workforcevision.co.uk](https://workforcevision.co.uk)  
-- 💼 **LinkedIn Company Page:** [WorkforceVision Ltd on LinkedIn](https://www.linkedin.com/company/workforcevision)  
-- 👤 **Director – Ira Watt:** [Ira Watt on LinkedIn](https://www.linkedin.com/in/irawatt)  
-- 📘 **Microsoft AppSource Listing:** [Org Chart Drag & Drop Visual](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA200005864)
+- 💼 **LinkedIn Company Page:** [WorkforceVision Ltd on LinkedIn](https://www.linkedin.com/company/workforce-vision-ltd)  
+- 👤 **Director – Ira Watt:** [Ira Watt on LinkedIn](https://www.linkedin.com/in/ira-watt/)  
+- 📘 **Microsoft AppSource Listing:** [Org Chart Drag & Drop Visual](https://marketplace.microsoft.com/en-us/product/power-bi-visuals/workforcevision.org-chart-drag-and-drop?tab=Overview)
 
 ---
 

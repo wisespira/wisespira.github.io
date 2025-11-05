@@ -5,36 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }} | {{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <div class="wrapper">
-        <a href="{{ '/' | relative_url }}">
-            <img src="{{ '/assets/images/Logo.png' | relative_url }}" alt="WorkforceVision Logo" style="height:60px; margin:10px 0;">
-        </a>
-    </div>
-
+    <!--<div class="wrapper">
+            <a href="{{ '/' | relative_url }}">
+                <img src="{{ '/assets/images/Logo.png' | relative_url }}" alt="WorkforceVision Logo" style="height:60px; margin:10px 0;">
+            </a>
+        </div>
+        -->
 </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">{{ site.title }}</h1>
-      <h2 class="project-tagline">{{ site.description }}</h2>
+      <body>
+        <section class="page-header">
+          <h1 class="project-name">{{ site.title }}</h1>
+          <h2 class="project-tagline">{{ site.description }}</h2>
 
-      <!-- 🌐 Navigation Bar -->
-      <nav style= "color:white !important;">
-        <a style= "color:white !important;" href="{{ '/' | relative_url }}">Home</a> | 
-        <a style= "color:white !important;" href="{{ '/whoarewe' | relative_url }}">Who We Are</a> | 
-        <a style= "color:white !important;" href="{{ '/orgchart' | relative_url }}">Org Chart Docs</a> | 
-        <a style= "color:white !important;" href="{{ '/familytree' | relative_url }}">Family Tree Docs</a> | 
-        <a style= "color:white !important;" href="{{ '/data-security' | relative_url }}">Data Security</a> | 
-         <a style= "color:white !important;" href="{{ '/PrivacyPolicy' | relative_url }}">Privacy Policy</a> 
-      </nav>
+          <!-- 🌐 Navigation Bar -->
+    <nav style="color:white !important;">
+        <a style="color:white !important;" href="{{ '/' | relative_url }}">Home</a> |
+        <a style="color:white !important;" href="{{ '/whoarewe' | relative_url }}">Who We Are</a> |
+        <a style="color:white !important;" href="{{ '/orgchart' | relative_url }}">Org Chart Docs</a> |
+        <a style="color:white !important;" href="{{ '/familytree' | relative_url }}">Family Tree Docs</a> |
+        <a style="color:white !important;" href="{{ '/data-security' | relative_url }}">Data Security</a> |
+        <a style="color:white !important;" href="{{ '/PrivacyPolicy' | relative_url }}">Privacy Policy</a>
+    </nav>
     </section>
 
     <section class="main-content">
-      {{ content }}
-      <footer class="site-footer">
-        <span class="site-footer-credits">
-          © {{ 'now' | date: '%Y' }} WorkforceVision Ltd · All rights reserved.
-        </span>
-      </footer>
+        {{ content }}
+        <footer class="site-footer">
+            <span class="site-footer-credits">
+                © {{ 'now' | date: '%Y' }} WorkforceVision Ltd · All rights reserved.
+            </span>
+        </footer>
     </section>
-  </body>
+    </body>
 </html>

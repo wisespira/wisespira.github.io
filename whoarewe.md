@@ -50,7 +50,4 @@ Our products — including the certified *Org Chart Drag & Drop* and *Family Tre
 
 We believe that **data-driven workforce design** is the cornerstone of future-ready organizations — and we build tools that make it effortless.
 
----
-
-© 2025 **WorkforceVision Ltd** · All rights reserved.
 

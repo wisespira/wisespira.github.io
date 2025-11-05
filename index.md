@@ -2,10 +2,48 @@
 layout: default
 title: Home
 ---
-# Welcome to WorkforceVision Ltd
-Power BI Visuals for Strategic Workforce Planning.
 
-Explore our solutions:
-- [Org Chart Drag & Drop](./orgchart)
-- [Family Tree Visual](./familytree)
-- [Contact Us](./contact)
+# Welcome to **WorkforceVision Ltd**
+### Power BI Visuals for Strategic Workforce Planning and Organizational Design
+
+Empowering CFOs, HR leaders, and analytics teams to make better workforce decisions through certified Power BI custom visuals and intuitive data-driven tools.
+
+---
+
+## 🚀 Explore Our Solutions
+
+- [Org Chart Drag & Drop](./orgchart) — Interactive hierarchy visualization for workforce design  
+- [Family Tree Visual](./familytree) — Visualize relationships across teams or generations  
+- [Org Chart Documentation](./orgchart-docs) — Setup and usage guide  
+- [Family Tree Documentation](./familytree-docs) — Features and configuration  
+- [Data Security & Flow Overview](./data-security) — How we handle local storage and data privacy  
+
+---
+
+## 💡 About WorkforceVision
+
+WorkforceVision Ltd is a UK-based software company dedicated to empowering organizations through advanced data visualization solutions for **strategic workforce planning and organizational design**.
+
+With over a decade of combined experience across business, HR analytics, and automation, we bring deep expertise to solving workforce challenges.  
+Our software is trusted across every continent and supports **50+ organizations worldwide**, including Big Four firms and government departments.
+
+> Strategic workforce planning and effective organizational design are essential for long-term business success.  
+> Our visuals enable leaders to structure their organizations clearly — ensuring efficient resource allocation, well-defined roles, and scalable growth.
+
+---
+
+## 📺 Watch Our Latest Demo
+🎥 [Watch the Org Chart Visual in action on YouTube](https://www.youtube.com/)  
+📚 [Read our documentation for setup and best practices](./orgchart-docs)
+
+---
+
+## 🤝 Connect With Us
+
+- 🌐 [Visit our website](https://workforcevision.com)
+- 💼 [Connect on LinkedIn](https://www.linkedin.com/company/workforcevision/)
+- 📧 Email: [contact@workforcevision.com](mailto:contact@workforcevision.com)
+
+---
+
+© 2025 WorkforceVision Ltd · All rights reserved.

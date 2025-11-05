@@ -69,90 +69,99 @@ For multiple connections:
   { "ManagerID": "E63", "Comment": "Mentorship Link" }
 ]
 ```
+🧠 **Each object represents one dotted-line connection.**  
+Each object contains the following properties:
 
-🧠 Each object represents one dotted-line connection.
-Properties: ManagerID, Comment, and Color (all as text).
+| Property | Description |
+|-----------|--------------|
+| **ManagerID** | The Employee ID the dotted line connects to. |
+| **Comment** | Optional text to describe the relationship. |
+| **Color** | Optional colour for the dotted line (e.g. `#FF0000`). |
 
-Validate JSON using an online tool such as JSONLint
- or JSONChecker
-.
+Validate your JSON structure using online tools such as:  
+- [JSONLint](https://jsonlint.com)  
+- [JSONChecker](https://jsonchecker.com)
 
-🖼 Base64 Image Guidelines
+---
 
-Images must be Base64-encoded text. To ensure correct rendering:
+## 🖼 Base64 Image Guidelines
 
-Remove the prefix data:image/png;base64, before pasting.
+Images used in the Org Chart visual must be **Base64-encoded text**.
 
-Use UTF-8 encoding and plain text (no special characters).
+### ✅ To ensure correct rendering:
+1. Remove the prefix `data:image/png;base64,` before pasting.
+2. Use UTF-8 encoding and plain text (no special formatting).
+3. Validate using [Base64 Image Decoder](https://www.base64decode.net/base64-image-decoder).
 
-Validate using Base64 Image Decoder
-.
+### 💡 Notes
+- **Valid Base64 characters:** `A–Z`, `a–z`, `0–9`, `+`, `/`, and `=` (padding).  
+- If the image does not render, it’s likely malformed or exceeds Power BI’s 32,766-character limit.  
+- You can reduce file size by compressing or resizing the image before encoding.
 
-Valid Base64 characters: A–Z, a–z, 0–9, +, /, and = (padding).
-If the image does not render, it’s likely malformed or too large.
+---
 
-🔀 Moving Nodes
+## 🔀 Moving Nodes
 
-Click Organize at the top of the visual.
+You can reorganize nodes to reflect new reporting structures.
 
-Left-click and drag a node to a new position.
+### Steps:
+1. Click **Organize** at the top of the visual.  
+2. **Left-click and drag** a node to a new position.  
+3. The node and its entire reporting line will move together.  
+4. Use **Undo / Redo** to revert or repeat changes.  
+5. Click **Cancel** to discard unsaved changes.
 
-The entire reporting line moves with it.
+---
 
-Use Undo / Redo to revert or repeat changes.
+## ➕ Adding / ➖ Removing Nodes
 
-Click Cancel to discard pending edits.
+Easily update your organization’s structure using the built-in **Add** and **Remove** functions.
 
-➕ Adding / ➖ Removing Nodes
+### To Add or Remove:
+1. Click **Add** or **Remove** on the visual toolbar.  
+2. Complete the form and click **Submit**.  
+3. If **Submit** doesn’t work:
+   - The **Employee ID** may already exist, or  
+   - The **Manager ID** does not exist in the dataset.  
+4. Removing a node also removes its entire reporting line.  
+   - Move subordinates to a new manager first if you want to retain them.
 
-Click Add or Remove at the top of the visual.
+---
 
-Complete the form and click Submit.
+## 🔎 Searching
 
-If Submit doesn’t work:
+Use the **Search Bar** to locate any employee by name.
 
-The Employee ID may already exist, or
+- Supports **partial matches** (e.g. typing “Ann” finds “Anna” or “Annette”).  
+- When there are **10 or fewer results**, they’ll be displayed automatically for easy selection.
 
-The Manager ID provided doesn’t exist.
+---
 
-Removing a node deletes its reporting line — move subordinates first if needed.
+## 🎨 Conditional Formatting
 
-🔎 Searching
+Conditional formatting dynamically updates node colors based on numeric comparisons between two **Cumulative Fields**.
 
-Use the Search Bar to locate employees by name.
-Partial matches are supported.
-If there are 10 or fewer possible matches, they’ll be listed automatically.
+### Behavior:
+- **Above Comparison Color** → First value is higher.  
+- **Below Comparison Color** → First value is lower.  
+- **Equal Comparison Color** → Values are equal or within the defined threshold.
 
-🎨 Conditional Formatting
+### To Configure:
+1. Enable **Conditional Formatting** in the visual’s **Formatting** settings.  
+2. Define your **Threshold Percentage**.  
+3. Refresh or move nodes — formatting will automatically update.
 
-Conditional formatting enables dynamic color updates based on numeric comparisons between two Cumulative Fields.
+---
 
-When enabled:
+## 🧾 Exporting as PDF
 
-Above Comparison Color → First value is higher.
+Easily export your chart for printing or sharing.
 
-Below Comparison Color → First value is lower.
+### Steps:
+1. Press **CTRL + P**  
+2. Choose **Print as PDF**  
+3. Select **Landscape Orientation**  
+4. Click **More Settings → Tick “Background Graphics”**  
+5. Click **Save / Print**
 
-Equal Comparison Color → Values are equal or within the threshold percentage.
-
-To configure:
-
-Enable Conditional Formatting in the visual’s formatting settings.
-
-Define your threshold percentage.
-
-Refresh or move nodes — formatting will update automatically.
-
-🧾 Exporting as PDF
-
-To export the chart:
-
-Press CTRL + P
-
-Choose Print as PDF
-
-Select Landscape orientation
-
-Click More Settings → Tick “Background Graphics”
-
-Click Save / Print
+Your exported PDF will include all node colors and backgrounds exactly as shown in Power BI.

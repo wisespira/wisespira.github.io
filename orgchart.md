@@ -7,6 +7,9 @@ title: Drag & Drop Org Chart Support and Help
 
 Thank you for your interest in the **Drag & Drop Organization Chart** by **WorkforceVision Ltd**.
 
+Download and try the visual with our sample Power BI report directly from Microsoft AppSource:
+🔗 https://marketplace.microsoft.com/en-us/product/power-bi-visuals/workforcevision.org-chart-drag-and-drop?tab=Overview
+
 For any issues or technical queries, please contact:  
 📧 [IraWatt@WorkforceVision.co.uk](mailto:IraWatt@WorkforceVision.co.uk)
 

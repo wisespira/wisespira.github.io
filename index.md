@@ -40,6 +40,4 @@ Our software is trusted across every continent and supports **50+ organizations 
 - 💼 [Connect on LinkedIn](https://www.linkedin.com/company/workforce-vision-ltd)
 - 📧 Email: [irawatt@workforcevision.com](mailto:irawatt@workforcevision.com)
 
----
 
-© 2025 WorkforceVision Ltd · All rights reserved.

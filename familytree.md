@@ -80,6 +80,3 @@ We welcome feedback, ideas, and questions.
 You can reach us at:  
 📧 [IraWatt@WorkforceVision.co.uk](mailto:IraWatt@WorkforceVision.co.uk)
 
----
-
-© 2025 **WorkforceVision Ltd** · All rights reserved.

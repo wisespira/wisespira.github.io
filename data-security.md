@@ -100,7 +100,3 @@ The only scenario in which WorkforceVision could view your data is if a user **v
 - [Certification Requirements – No External Calls](https://learn.microsoft.com/power-bi/developer/visuals/power-bi-custom-visuals-certification#criteria)  
 - [Sandboxing Custom Visuals in Power BI](https://learn.microsoft.com/power-bi/developer/visuals/power-bi-custom-visuals-getting-started#sandboxing)  
 - [Power BI Community – Certified Visual Safety Discussion](https://community.powerbi.com)
-
----
-
-© 2025 **WorkforceVision Ltd** · All rights reserved.

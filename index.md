@@ -17,6 +17,34 @@ Empowering CFOs, HR leaders, and analytics teams to make better workforce decisi
 
 ---
 
+## ⭐ Customer Reviews  
+<div style="display: grid; gap: 20px; margin: 30px 0;">
+
+  <div style="padding: 20px; border-radius: 10px; background: #f8f9fa; box-shadow: 0 2px 6px rgba(0,0,0,0.08);">
+    <div style="font-size: 20px; color: #f4b400;">★★★★★</div>
+    <strong>Great tool – embraced by large org!!</strong>
+    <p style="margin-top: 8px;">
+      It is one thing to have a tool that works. But when people in a company see the tool and then request access specifically because it meets a very particular need, then you know you are working with something of great value.  
+      The app development team has also been very collaborative for requested modifications!
+    </p>
+    <em>– Chris Radvansky</em>
+  </div>
+
+  <div style="padding: 20px; border-radius: 10px; background: #f8f9fa; box-shadow: 0 2px 6px rgba(0,0,0,0.08);">
+    <div style="font-size: 20px; color: #f4b400;">★★★★★</div>
+    <strong>Best org chart tool in Power BI</strong>
+    <p style="margin-top: 8px;">
+      Best and easiest way to visualize your organization structure in Power BI.  
+      Great to model different scenarios as well.  
+      Ira and his team at WorkforceVision are very responsive to feedback and are working on even more features.
+    </p>
+    <em>– Paul Housham</em>
+  </div>
+
+</div>
+
+---
+
 ## 💡 About WorkforceVision
 
 WorkforceVision Ltd is a UK-based software company dedicated to empowering organizations through advanced data visualization solutions for **strategic workforce planning and organizational design**.

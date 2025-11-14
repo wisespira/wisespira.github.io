@@ -17,7 +17,7 @@ Empowering CFOs, HR leaders, and analytics teams to make better workforce decisi
 
 ---
 
-## ⭐ Customer Reviews  
+## ⭐ Customer Reviews - [AppSource Marketplace](https://marketplace.microsoft.com/en-us/product/power-bi-visuals/workforcevision.org-chart-drag-and-drop?tab=Reviews)
 <div style="display: grid; gap: 20px; margin: 30px 0;">
 
   <div style="padding: 20px; border-radius: 10px; background: #f8f9fa; box-shadow: 0 2px 6px rgba(0,0,0,0.08);">

@@ -9,7 +9,7 @@ title: Data Flow and Security
 
 ## 🧭 Overview
 
-The **WorkforceVision Org Chart Drag & Drop** is a **Microsoft-certified Power BI custom visual** available through [Microsoft AppSource](https://appsource.microsoft.com).  
+The **WorkforceVision Org Chart Drag & Drop** is a **Microsoft-certified Power BI custom visual** available through [Microsoft AppSource](https://marketplace.microsoft.com/en-us/product/power-bi-visuals/workforcevision.org-chart-drag-and-drop?tab=Overview).  
 Being a certified visual means it has passed Microsoft’s rigorous code reviews and security testing to ensure it meets **strict privacy and quality standards**.
 
 ✅ **Certified visuals do not send any data outside of Power BI.**  

@@ -16,7 +16,7 @@ For any issues or technical queries, please contact:
 For details on how data is handled and secured, please see our  
 ➡️ [Data Security and Flow Overview](./data-security)
 
-Advanced Guides:  
+Advanced Org Chart Guides:  
 • [Create Reporting Line Slicer/Filter Using Power Query (M)](./Reporting-Lines)  
 • [Create a Supervisor/Team Slicer/Filter for the Org Chart Visual](./team-members)  
 • [Create 64bit text for Image field from a file or folder](./64-Bit-Image-Creation-From-File-or-Folder.md)  

@@ -26,7 +26,7 @@ Power BI Certified visuals must comply with Microsoft’s strict **no-external-c
 
 ### Key Protections:
 - 🔒 **Verified No External Communication** – Microsoft’s certification team inspects the visual’s source code to confirm it makes **no outbound network calls**.  
-  See [Power BI Implementation Planning](https://learn.microsoft.com/power-bi/guidance/powerbi-implementation-planning-security).  
+  See [Power BI Implementation Planning](https://learn.microsoft.com/en-us/power-bi/guidance/powerbi-implementation-planning-user-tools-devices).  
 - 🧩 **No Vendor Servers or Backends** – The visual runs entirely within Power BI; WorkforceVision operates **no external service**.  
 - 🏢 **Privacy and Security** – Your data is protected under Microsoft’s platform-level security and compliance controls.  
   Admins can configure Power BI to allow **certified visuals only** in organizational workspaces.
@@ -40,7 +40,7 @@ Power BI uses a **sandboxed visual execution environment** to isolate visuals an
 ### How it works:
 - 🧠 **In-memory Data Model** – All report data is loaded into Power BI’s internal data model, managed by the Power BI engine.  
 - 🪟 **Sandboxed Visual Execution** – Each visual runs in a **restricted iframe sandbox**, preventing access to external services or local files.  
-  See [Power BI Community: Visual Sandboxing](https://community.powerbi.com).  
+  See [Power BI Community: Visual Sandboxing](https://community.fabric.microsoft.com/t5/Developer/Custom-Visuals-Sandbox-is-coming-Here-s-what-you-need-to-know/m-p/20923).  
 - 📦 **Controlled Data Binding** – Only the fields bound to the visual are accessible to it. The visual cannot see other datasets or visuals.  
 
 The sandbox ensures the visual can only interact with Power BI via **approved internal APIs**, with **no access to cookies, domains, or external requests**.
@@ -96,7 +96,7 @@ The only scenario in which WorkforceVision could view your data is if a user **v
 
 ## 📚 References and Official Documentation
 
-- [Power BI Custom Visual Certification Overview](https://learn.microsoft.com/power-bi/developer/visuals/power-bi-custom-visuals-certified)  
-- [Certification Requirements – No External Calls](https://learn.microsoft.com/power-bi/developer/visuals/power-bi-custom-visuals-certification#criteria)  
-- [Sandboxing Custom Visuals in Power BI](https://learn.microsoft.com/power-bi/developer/visuals/power-bi-custom-visuals-getting-started#sandboxing)  
-- [Power BI Community – Certified Visual Safety Discussion](https://community.powerbi.com)
+- [Power BI Custom Visual Certification Overview](https://learn.microsoft.com/en-us/power-bi/developer/visuals/power-bi-custom-visuals-certified)  
+- [Certification Requirements – No External Calls](https://learn.microsoft.com/en-us/power-bi/guidance/powerbi-implementation-planning-user-tools-devices)  
+- [Sandboxing Custom Visuals in Power BI](https://community.fabric.microsoft.com/t5/Developer/Custom-Visuals-Sandbox-is-coming-Here-s-what-you-need-to-know/m-p/20923)  
+- [Power BI Community – Certified Visual Safety Discussion](https://community.fabric.microsoft.com/t5/Desktop/Is-using-Power-BI-certified-Custom-Visuals-e-g-Text-bar-Chart/m-p/889581)

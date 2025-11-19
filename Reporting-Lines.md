@@ -9,7 +9,7 @@ The query builds a `Path` field based on `Employee ID` and `Manager ID`, which y
 
 You can either:
 
-- Use the **example report** provided with the sample Excel file, or  
+- Use the **example report** provided: [ReportingLineFilter.pbix](PowerBI/ReportingLineFilter.pbix) with the sample Excel file, or  
 - Point the query to your own Excel file with similar columns.
 
 The M code below expects an Excel file with at least these columns:

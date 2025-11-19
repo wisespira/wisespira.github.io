@@ -1,73 +1,69 @@
-Building an Organization Chart in Power BI Using Microsoft Graph API (Microsoft Entra ID)
+# **Building an Organization Chart in Power BI Using Microsoft Graph API (Microsoft Entra ID)**
 
-Microsoft Entra ID (formerly Azure Active Directory) stores rich information about your users, including names, job titles, departments, managers, and profile photos. By connecting Power BI to the Microsoft Graph API, you can automatically populate the WorkforceVision Org Chart visual with real employee data—without maintaining a manual dataset.
+Microsoft Entra ID (formerly Azure Active Directory) provides detailed information about your users, including names, departments, managers, job titles, and profile photos. By connecting Power BI to the Microsoft Graph API, you can automatically populate the **WorkforceVision Org Chart** visual with live employee data—eliminating the need for manual datasets or spreadsheets.
 
-This guide walks through the full setup required to pull user details and profile images from Microsoft Entra ID into Power BI using Power Query, and then prepare the data for use in the Org Chart visual.
+This guide explains how to connect Power BI to Microsoft Entra ID using Power Query, retrieve user and image data, and prepare the dataset for the Org Chart visual.
 
-Overview of the Process
+---
 
-To build your Microsoft Entra ID–driven Org Chart, you will complete the following steps:
+## **📌 Overview of the Process**
 
-Prerequisites and Required Azure Setup
+To build a Microsoft Entra ID–powered Org Chart, complete the following stages:
 
-Create Parameters in Power Query
+1. **Prerequisites and Azure configuration**  
+2. **Create parameters in Power Query**  
+3. **Retrieve user details from Microsoft Graph**  
+4. **Retrieve user profile images**  
+5. **Load and connect data to the Org Chart visual**
 
-Retrieve Entra ID User Data (via Microsoft Graph API)
+---
 
-Retrieve Profile Images
+## **1. Prerequisites**
 
-Load Into Power BI and Connect to the Org Chart Visual
+Before connecting to the Microsoft Graph API, the following Azure items must be set up:
 
-1. Prerequisites
+### **✔ Tenant ID**
+Your Microsoft Entra ID tenant identifier, required for all authentication flows.
 
-Before connecting Power BI to Microsoft Entra ID, a few Azure components must be in place:
+### **✔ App Registration in Entra ID**
+Power BI will authenticate using an Azure App Registration.  
+Ensure this app has the correct **Microsoft Graph API permissions** (delegated or application, depending on your configuration).
 
-Microsoft Entra ID Tenant ID
+### **✔ Application Credentials**
+- **Client ID** – Identifies your registered application  
+- **Client Secret** – Secure key used to authenticate the application  
 
-Identifies your Azure tenant. It is required for all Graph API authentication calls.
+Power BI uses these values to request a Graph API access token.
 
-Registered Application in Entra ID
+---
 
-You must create an App Registration that Power BI will use to request data from the Microsoft Graph API.
-This application needs delegated or application permissions depending on your configuration.
-Refer to Microsoft’s Graph API permissions documentation if you need to verify the correct scopes.
+## **2. Creating Parameters in Power Query**
 
-Application Credentials
+To avoid hard-coding credentials, create parameters:
 
-Client ID – The unique ID of your registered app
+- **Tenant ID**  
+- **Client ID**  
+- **Client Secret**
 
-Client Secret – A secure key generated for API authentication
+### **Steps:**
+1. In Power Query, go to **Home → Manage Parameters → New Parameter**  
+2. Create each parameter and paste in your Azure details  
+3. Click **OK** to save
 
-These values are used inside Power BI to request an access token from Microsoft Entra ID.
+> 💡 These parameters will be referenced by all Power Query scripts.
 
-2. Create Parameters in Power Query
+*Image: Manage Parameters*  
+*Image: Add Parameters*
 
-To keep credentials secure and reusable, define three parameters:
+---
 
-Tenant ID
+## **3. Retrieving Microsoft Entra ID User Data**
 
-Client ID
+1. Create a new **Blank Query**  
+2. Rename it to **AAD Users**  
+3. Open **Advanced Editor** and paste the following code:
 
-Client Secret
-
-In Power Query:
-
-Go to Home → Manage Parameters → New Parameter
-
-Create the three parameters and paste in your Azure values.
-
-Save your changes.
-
-Image: Manage Parameters
-Image: Add Parameters
-
-These parameters will be referenced throughout your Power Query scripts.
-
-3. Retrieve Entra ID User Data (Graph API)
-
-Create a new blank query named AAD Users, then open Advanced Editor.
-Replace its contents with the following M code:
-
+```M
 let 
     resource = "https://graph.microsoft.com",
     tokenResponse =
@@ -100,7 +96,7 @@ let
         )
 in
     Source
-
+``` 
 
 This request retrieves core user profile information such as names, job titles, and IDs.
 
@@ -129,7 +125,7 @@ Once applied, your first batch of Entra ID user data will appear in Power Query.
 Profile photos can also be retrieved using the Microsoft Graph API.
 Create another blank query and open Advanced Editor.
 Paste the following M code, then rename the query to AAD User Photos:
-
+```M
 let
     // Request Access Token (v2 endpoint)
     tokenResponse =
@@ -179,7 +175,7 @@ let
         )
 in
     photoRecords
-
+```
 
 This query returns a list of photo blobs indexed by user ID.
 

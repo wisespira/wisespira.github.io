@@ -27,7 +27,7 @@ Use the example report provided. It contains a Power Query script that automatic
 ---
 
 ## 📄 Supervisor/Team Table – Power Query (M Code)
-
+{% raw %}
 ```m
 let
     // === Part 1 ===
@@ -70,6 +70,7 @@ let
 in
     #"Removed Columns"
 ```
+{% endraw %}
 ---
 
 ## Step 3 — Create the Relationship

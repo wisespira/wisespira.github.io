@@ -17,10 +17,13 @@ For details on how data is handled and secured, please see our
 ➡️ [Data Security and Flow Overview](./data-security)
 
 Advanced Org Chart Guides:  
+
+
 • [Create Reporting Line Slicer/Filter Using Power Query (M)](./Reporting-Lines)  
-• [Create a Supervisor/Team Slicer/Filter for the Org Chart Visual](./team-members)  
-• [Create 64bit text for Image field from a file or folder](./64-Bit-Image-Creation-From-File-or-Folder.md)  
-• [Compress Image text to meet Power BI Size Requirements](./Compressing-64-Bit-Image.md)
+• [Create a Supervisor/Team Slicer/Filter For The Org Chart Visual](./team-members)  
+• [Create Org Chart Using Microsoft Graph API Including Images](./Org-Chart-Using-Microsoft-Graph-API-and-Images) 
+• [Create 64bit text For Image Field From a File or Folder](./64-Bit-Image-Creation-From-File-or-Folder.md)  
+• [Compress Image Text to Meet Power BI Size Requirements](./Compressing-64-Bit-Image.md)
 
 ---
 

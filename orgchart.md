@@ -67,10 +67,10 @@ Use the **Dotted Line** field to define non-hierarchical relationships between e
 Example JSON:
 ```json
 [{ "ManagerID": "E1", "Comment": "Replacing", "Color": "#FF0000" }]
-
+```
 
 For multiple connections:
-
+```json
 [
   { "ManagerID": "E173", "Comment": "Applied for Role" },
   { "ManagerID": "E63", "Comment": "Mentorship Link" }

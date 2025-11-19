@@ -10,7 +10,7 @@ Thank you for your interest in the **Drag & Drop Organization Chart** by **Workf
 Download and try the visual with our sample Power BI report directly from Microsoft AppSource:  
 🔗 [Org Chart Drag and Drop - AppSource](https://marketplace.microsoft.com/en-us/product/power-bi-visuals/workforcevision.org-chart-drag-and-drop?tab=Overview)
 
-For any issues or technical queries, please contact:  
+For any issues or technical or Licensing queries, please contact:  
 📧 [IraWatt@WorkforceVision.co.uk](mailto:IraWatt@WorkforceVision.co.uk)
 
 For details on how data is handled and secured, please see our  
@@ -18,12 +18,19 @@ For details on how data is handled and secured, please see our
 
 Advanced Org Chart Guides:  
 
-
 • [Create Reporting Line Slicer/Filter Using Power Query (M)](./Reporting-Lines)  
 • [Create a Supervisor/Team Slicer/Filter For The Org Chart Visual](./team-members)  
 • [Create Org Chart Using Microsoft Graph API Including Images](./Org-Chart-Using-Microsoft-Graph-API-and-Images)  
 • [Create 64bit text For Image Field From a File or Folder](./64-Bit-Image-Creation-From-File-or-Folder.md)  
 • [Compress Image Text to Meet Power BI Size Requirements](./Compressing-64-Bit-Image.md)
+
+Licencing:
+
+A license is required to use this visual. All users, both viewers and developers, need a valid license to access any features within the chart in Power BI Desktop or Power BI Service.
+
+You can explore the full functionality by downloading the sample report. Alternatively, you can begin a 1-month free trial by purchasing a license and cancelling before the trial period ends. This requires permission to assign and manage licenses in your Microsoft Admin Portal.
+
+Licenses can be assigned to individuals or groups in your organisation and easily reassigned as needed. Full instructions are available here: [Microsoft License Management Guide](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).
 
 ---
 

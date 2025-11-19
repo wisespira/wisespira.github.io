@@ -88,13 +88,3 @@ Connect the new Supervisor/Team table to your main dataset.
 2. Add the **Team** or **Supervisor** field from the new table into the slicer.  
 ![M Code](/assets/images/AddSlicer.png)
 
----
-
-## Step 5 — Test the Filter
-
-Select different supervisors or teams in the slicer.  
-The Org Chart visual should now update dynamically based on your selection.
-
----
-
-If you want, I can also add images, callouts, or a stylised layout for your documentation site.

@@ -25,6 +25,52 @@ Use the example report provided. It contains a Power Query script that automatic
 
 ---
 
+## 📄 Supervisor/Team Table – Power Query (M Code)
+
+```m
+let
+    // === Part 1 ===
+    Source = Headcount,
+    RemovedOtherColumns = Table.SelectColumns(Source, {"Name", "Manager ID", "Employee ID"}),
+    ChangedType = Table.TransformColumnTypes(RemovedOtherColumns, {{"Manager ID", type text}, {"Employee ID", type text}}),
+
+    // Keep a copy of this cleaned table to reuse (like "Part 1")
+    BaseTable = ChangedType,
+
+    // === Part 1 (2): Merge to get Manager Name ===
+    MergedWithSelf = Table.NestedJoin(ChangedType, {"Manager ID"}, BaseTable, {"Employee ID"}, "ManagerDetails", JoinKind.LeftOuter),
+    ExpandedManager = Table.ExpandTableColumn(MergedWithSelf, "ManagerDetails", {"Name"}, {"Manager Name"}),
+
+    // === Query 2: Count reports per Manager ID ===
+    ReportCounts = Table.Group(BaseTable, {"Manager ID"}, {{"DirectReportCount", each Table.RowCount(_), Int64.Type}}),
+
+    // === Part 1 (3): Self-managed entries (Manager ID = Employee ID) ===
+    DuplicatedID = Table.DuplicateColumn(ChangedType, "Employee ID", "Employee ID - Copy"),
+    RemoveManagerID = Table.RemoveColumns(DuplicatedID, {"Manager ID"}),
+    RenameCopyToManagerID = Table.RenameColumns(RemoveManagerID, {{"Employee ID - Copy", "Manager ID"}}),
+    RemoveNameColumn = Table.RemoveColumns(RenameCopyToManagerID, {"Name"}),
+
+    SelfManagedMerged = Table.NestedJoin(RenameCopyToManagerID, {"Manager ID"}, BaseTable, {"Employee ID"}, "ManagerDetails", JoinKind.LeftOuter),
+    SelfManagedExpanded = Table.ExpandTableColumn(SelfManagedMerged, "ManagerDetails", {"Name"}, {"Manager Name"}),
+
+    // Append self-managed and manager-merged rows
+    AppendedTable = Table.Combine({SelfManagedExpanded, ExpandedManager}),
+
+    // Sort alphabetically by Manager Name (optional)
+    SortedOutput = Table.Sort(AppendedTable, {{"Manager Name", Order.Ascending}}),
+
+    // Join with report counts
+    FinalMerged = Table.NestedJoin(SortedOutput, {"Manager ID"}, ReportCounts, {"Manager ID"}, "Counts", JoinKind.LeftOuter),
+    ExpandedCounts = Table.ExpandTableColumn(FinalMerged, "Counts", {"DirectReportCount"}),
+
+    // Final output columns (customize as needed)
+    FinalOutput = ExpandedCounts,
+    #"Removed Columns" = Table.RemoveColumns(FinalOutput,{"Name", "Manager ID"})
+in
+    #"Removed Columns"
+```
+---
+
 ## Step 3 — Create the Relationship
 
 Connect the new Supervisor/Team table to your main dataset.

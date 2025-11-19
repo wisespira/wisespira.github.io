@@ -223,28 +223,18 @@ in
 
 Click Done, then Close & Apply to load the query.
 
-Step 4 — Use the Output Table in Your Org Chart Visual
+## Step 4 — Create the Relationship
 
-The final query (#"Changed Type2") returns a table where:
+Connect the new Supervisor/Team table to your main dataset.
 
-Each row represents part of a reporting path.
+1. Go to **Model View**.  
+2. Drag the **Team** or **Supervisor** column from the new table onto the matching ID column in your main table.  
+![M Code](/assets/images/Relationship.png)
 
-Employee ID and Manager ID are converted to text, which is required for many visuals.
+---
 
-The expanded Path logic creates multiple rows to represent the full chain from top manager down.
+## Step 5 — Add the Slicer
 
-You can:
-
-Use this new query as your main dataset for the Org Chart visual, or
-
-Join/relate it to your existing headcount table in Model View using Employee ID and Manager ID.
-
-Step 5 — Validate the Reporting Lines
-
-Load the table into Data View.
-
-Sort or filter by Employee ID and Manager ID to confirm the hierarchy looks correct.
-
-Add the table to the Org Chart Drag & Drop visual and check that the reporting lines match your organisation structure.
-
-If you’d like, I can also merge this guide with your existing documentation pages or add image placeholders (e.g. screenshots of the Advanced Editor, Data View, or Org Chart visual).
+1. Insert a **Slicer** visual onto your report page.  
+2. Add the **reportling line** field from the new table into the slicer.  
+![M Code](/assets/images/AddSlicer.png)

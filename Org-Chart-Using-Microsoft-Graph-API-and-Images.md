@@ -223,11 +223,3 @@ Department
 Employee Image (from the image table)
 
 Your Power BI report will now automatically build a live, Microsoft Entra–driven WorkforceVision Org Chart.
-
-If you’d like, I can also create:
-
-✅ A simplified “quick start” version
-✅ A separate troubleshooting section
-✅ A polished GitHub Pages version with headings, images, and code blocks
-
-Just let me know!

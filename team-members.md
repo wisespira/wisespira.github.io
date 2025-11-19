@@ -6,7 +6,7 @@ You can filter your Org Chart by team or supervisor by creating a separate **Sup
 
 ## Step 1 — Create the Supervisor/Team Table
 
-Use the example report provided. It contains a Power Query script that automatically generates a Supervisor/Team table from your data.
+Use the example report provided: [TeamFilter.pbix](PowerBI/TeamFilter.pbix). It contains a Power Query script that automatically generates a Supervisor/Team table from your data.
 
 1. Open the example report.  
 2. Go to **Transform Data** → **Power Query Editor**.  

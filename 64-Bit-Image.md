@@ -1,7 +1,7 @@
 The following script utilizes the base64 library and the PIL package to handle image processing. It begins by importing necessary modules and specifying paths for both the input PNG image and the output CSV file. The script sets a character limit for the base64 encoded string and defines a function to compress the image. The original image is opened, and a loop is initiated to iteratively compress and encode the image until the base64 string meets the character limit. The script then writes the resulting base64 string to a specified CSV file, including an optional header row.
 
 Make sure to update the image_path value before running:
-
+```python
 import base64
         from PIL import Image
         from io import BytesIO
@@ -53,4 +53,4 @@ import base64
             writer.writerow(["Compressed Image", base64_encoded_image])
         
         print(f"Base64-encoded image saved to {output_csv_file}")
-        
+``` 

@@ -10,8 +10,9 @@ Use the example report provided. It contains a Power Query script that automatic
 
 1. Open the example report.  
 2. Go to **Transform Data** → **Power Query Editor**.  
-3. Open **Advanced Editor**.  
-4. Copy the full Power Query code shown.
+3. Open **Advanced Editor**.
+![M Code](/assets/images/M Code.png)
+5. Copy the full Power Query code shown.
 
 ---
 

@@ -77,8 +77,8 @@ in
 Connect the new Supervisor/Team table to your main dataset.
 
 1. Go to **Model View**.  
-2. Drag the **Team** or **Supervisor** column from the new table onto the matching column in your main table.  
-3. Ensure the relationship is **one-to-many** (1:\*).
+2. Drag the **Team** or **Supervisor** column from the new table onto the matching ID column in your main table.  
+![M Code](/assets/images/Relationship.png)
 
 ---
 
@@ -86,7 +86,7 @@ Connect the new Supervisor/Team table to your main dataset.
 
 1. Insert a **Slicer** visual onto your report page.  
 2. Add the **Team** or **Supervisor** field from the new table into the slicer.  
-3. (Optional) Format the slicer or apply additional filters as needed.
+![M Code](/assets/images/AddSlicer.png)
 
 ---
 

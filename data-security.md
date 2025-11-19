@@ -82,7 +82,7 @@ The only scenario in which WorkforceVision could view your data is if a user **v
 
 ## 🧩 Data Flow Diagram (Description)
 
-**Diagram:** *Data Flow Within the Org Chart Visual*
+**Diagram:** ![Data Diagram.png](/assets/images/DataDiagram.png)
 
 - All report data originates from the **Power BI data model**.  
 - Data is passed into the **sandboxed iframe** where the visual executes.  

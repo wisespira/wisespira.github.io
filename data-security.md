@@ -49,7 +49,7 @@ The sandbox ensures the visual can only interact with Power BI via **approved in
 
 ## 💾 Local Storage
 
-If your Power BI tenant has enabled **Local Storage (API v2)**, the visual may use it to preserve user edits.
+If your Power BI tenant has enabled [Local Storage (API v2)](https://learn.microsoft.com/en-us/power-bi/developer/visuals/local-storage?tabs=v2), the visual may use it to preserve user edits.
 
 ### How it works:
 - Stores user-driven modifications (e.g. moved nodes, edited names, or added details).  

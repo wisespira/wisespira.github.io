@@ -58,7 +58,7 @@ Our software is trusted across every continent and supports **50+ organizations 
 ---
 
 ## 📺 Watch Our Latest Demo
-- 🎥 [Watch the Org Chart Visual in action on YouTube](https://www.youtube.com/watch?v=0PyXxH2HvJc)
+- 🎥 [Watch the Org Chart Visual in action on YouTube](https://www.youtube.com/watch?v=z8dQbj2uOjI)
 - 📚 [Read our documentation for setup and best practices](./orgchart)
 
 ---

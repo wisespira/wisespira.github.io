@@ -10,6 +10,9 @@ Thank you for your interest in the **Drag & Drop Organization Chart** by **Workf
 Download and try the visual with our sample Power BI report directly from Microsoft AppSource:  
 🔗 [Org Chart Drag and Drop - AppSource](https://marketplace.microsoft.com/en-us/product/power-bi-visuals/workforcevision.org-chart-drag-and-drop?tab=Overview)
 
+Demo Video:  
+🔗 [Org Chart Demo YouTube](https://www.youtube.com/watch?v=z8dQbj2uOjI)
+
 For any issues or technical or Licensing queries, please contact:  
 📧 [IraWatt@WorkforceVision.co.uk](mailto:IraWatt@WorkforceVision.co.uk)
 

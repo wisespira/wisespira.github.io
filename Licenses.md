@@ -143,7 +143,14 @@ If you’re considering a **large licence purchase**, we may be able to offer a 
 
 ---
 
-## 8. Quick FAQ
+## 8. Tax Exemptions
+
+All purchases made through Microsoft AppSource are processed directly by Microsoft. This means that any tax exemptions or reductions must be applied by Microsoft at the billing-account level see [billing tax-and-tax-exemptions](https://learn.microsoft.com/en-us/partner-center/billing/tax-and-tax-exemptions).
+If your organisation qualifies for tax-exempt purchasing, please contact your Microsoft support representative or billing administrator to ensure your exemption is correctly set up and applied at checkout.
+
+---
+
+## 9. Quick FAQ
 
 **How do we buy licences?**  
 All purchases are made through **Microsoft AppSource** on the  

@@ -15,8 +15,10 @@ All licence purchases are managed **directly by Microsoft** through **Microsoft 
 4. Select **monthly** or **annual** billing.
 5. Follow the checkout process until the **Payment** section to see the total monthly or annual cost.
 
-We offer different plans based on the number of licences required (for example, 1–10, 11–200, 200–500, 500–1199, etc.).  
-Larger tiers offer a **more cost-effective price per licence**, and **annual billing** is cheaper than monthly billing. It is often more cost effective to purchase more licenses then your reguired number of users using a larger plan, it also provides a buffer if the number of users you have changes.
+We offer several plans based on the number of licences required (e.g., 1–10, 11–200, 200–500, 500–1199, etc.).
+Larger tiers provide a **more cost-effective** price per licence, and annual billing offers the best value compared with monthly billing.
+
+In many cases, it can be more economical to choose a larger plan than your exact user count, as the lower price per licence often reduces the overall cost. This also gives you flexibility and a buffer if your number of users increases over time.
 
 If you’d like to compare pricing across plans, you can:
 

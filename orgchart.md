@@ -29,7 +29,7 @@ Advanced Org Chart Guides:
 
 Licensing:
 
-A license is required to use this visual. All users, both viewers and developers, need a valid license to access any features within the chart in Power BI Desktop or Power BI Service.
+A license is required to use this visual. All users, both viewers and developers, need a valid license to access any features within the chart in Power BI Desktop or Power BI Service. Please see our FAQ page here: [Licenses](./Licenses).
 
 You can explore the full functionality by downloading the sample report. Alternatively, you can begin a 1-month free trial by purchasing a license and cancelling before the trial period ends. This requires permission to assign and manage licenses in your Microsoft Admin Portal.
 

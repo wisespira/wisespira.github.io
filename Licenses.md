@@ -1,6 +1,6 @@
 # Licensing & Pricing
 
-This page explains how licensing works for the **WorkforceVision** Power BI visual, including how to purchase, assign, and manage licences through Microsoft AppSource and the Microsoft 365 admin centre. A License is required for all users of the visual both developers in Power BI Desktop and viewers/users in Power BI Service.
+This page explains how licensing works for the **WorkforceVision** Power BI visual, including how to purchase, assign, and manage licences through Microsoft AppSource and the Microsoft 365 admin centre. A License is required to be assigned to all users of the visual both developers in Power BI Desktop and viewers/users in Power BI Service.
 
 ---
 

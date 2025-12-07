@@ -46,7 +46,7 @@ You can manage these licences here:
 Licences are:
 
 - **Owned by the organisation**, not by individual users.
-- **Assigned to users or groups**, similar to other Microsoft products (e.g. Teams or Microsoft 365 licences).
+- **Assigned to users or groups**, similar to Microsoft products (e.g. Teams or Microsoft 365 licences).
 - **Reassignable** – if an employee leaves, IT can unassign their licence and reassign it to a new starter.
 
 Many IT teams already have **automated processes** for assigning and unassigning Microsoft licences. The same automation can typically be extended to include the WorkforceVision Org Chart licences.

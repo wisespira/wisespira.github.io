@@ -66,11 +66,13 @@ Use this tool to **optimize design, support strategic workforce planning, and dr
 |--------|--------------|
 | **Employee ID** | Unique identifier for each employee (text or number). Must be unique. |
 | **Manager ID** | ID of the employee’s manager. Leave blank for top-level nodes. Cannot be the same as Employee ID. |
+| **Dotted-Line Relationship** | Creates secondary connections for nodes. Must be in JSON Formatt see below for details. |
 | **Name** | Employee name (text). |
 | **Job Title** | Employee title or position. |
 | **Colour** | Optional hex code or named colour (e.g. `#FF5733` or `red`). Defaults to grey. |
 | **Extra Details** | Additional information (e.g. location, start date). Multiple lines supported. |
 | **Picture** | Base64-encoded image string (up to 32,766 characters). |
+| **Line Style** | Alows you to overwrite the default styling (colour,dotted/solid,thickness) for any primary connection. Must be in JSON Formatt see below for details.   |
 | **Secondary / Cumulative Field** | Numeric value aggregated across subordinate nodes, displayed top-left on each card. |
 
 ---
@@ -103,6 +105,23 @@ Each object contains the following properties:
 Validate your JSON structure using online tools such as:  
 - [JSONLint](https://jsonlint.com)  
 - [JSONChecker](https://jsonchecker.com)
+
+---
+
+## 🔗 Line Style (JSON Format)
+
+Alows you to overwrite the default styling (colour,dotted/solid,thickness) for any primary connection.
+
+Example JSON:
+```json
+{"Type":"Dotted", "Thickness":"2", "Color":"Red"}
+```
+
+| Property | Description |
+|-----------|--------------|
+| **Type** | Optional text, Types include: Dotted (this will change the line from a solid line to dashes/dotted). |
+| **Thickness** | Optional text, This will change the thickness of the line. |
+| **Color** | Optional hex code or named colour (e.g. `#FF5733` or `red`). This will just change that lines colour. |
 
 ---
 

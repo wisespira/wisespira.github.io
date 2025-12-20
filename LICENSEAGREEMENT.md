@@ -50,6 +50,16 @@ For purposes of this Agreement, the following terms have the following meanings:
 
 2.8. Microsoft AppSource Purchases. The Software, when purchased from Microsoft AppSource or its equivalent marketplace, shall be utilized only for publishing to Power BI web/service, and not for the following purposes: (a) publish to Power BI report server (b) combine, bundle, or embed the Software in Customer’s own technology that is licensed, sold, distributed, hosted or deployed in return for license or subscription fees (OEM use case) (c) build, publish or distribute reports and applications incorporating Software to external organizations as part of Customers consulting or service offerings (Embedded use case).
 
+2.9 Marketing & Publicity.
+This Section 2.9 shall apply only to Customers who purchase the Software for the first time on or after 31 December 2025 (“Effective Customers”).
+
+Each Effective Customer grants Licensor a non-exclusive, worldwide, royalty-free licence to use the Customer’s name, trademarks, and logos solely for the purpose of identifying the Customer as a current or former customer of the Software in Licensor’s website, marketing materials, sales presentations, and promotional communications. Licensor shall not alter the Customer’s logos other than resizing them proportionally.
+
+This licence shall survive the expiration or termination of this Agreement unless the Customer withdraws such permission by providing written notice to Licensor at irawatt@workforcevision.co.uk
+. Upon receipt of such notice, Licensor shall remove the Customer’s name and/or logo from publicly accessible materials within fourteen (14) days.
+
+Nothing in this Section shall be construed as an endorsement of the Software by the Customer.
+
 PAYMENT.
 
 3.1 Payment. All License fees are payable in advance in the manner set forth in the Order Form and are non-refundable.

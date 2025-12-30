@@ -66,8 +66,7 @@ The Family Tree Visual includes the following fields:
 | **Father ID** | The ID of the node’s father (text). |
 | **Spouses ID** | One or more spouse IDs, separated by commas. |
 | **Children ID** | One or more child IDs, separated by commas. |
-| **Image** | Base64-encoded image string (up to 32,766 characters). See [how to create 64bit text from a image file or folder of images](./64-Bit-Image-Creation-From-File-or-Folder.md) and how to
-• [compress image text to meet Power BI size requirements](./Compressing-64-Bit-Image.md) |
+| **Image** | Base64-encoded image string (up to 32,766 characters). See [how to create 64bit text from a image file or folder of images](./64-Bit-Image-Creation-From-File-or-Folder.md) and how to [compress image text to meet Power BI size requirements](./Compressing-64-Bit-Image.md) |
 | **Colour** | Optional hex code (e.g. `#FF5733`) or colour name for the node’s top band. Defaults to grey. |
 
 For more details on colour codes, visit [W3Schools Colors HEX](https://www.w3schools.com/colors/colors_hexadecimal.asp).

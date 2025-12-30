@@ -31,7 +31,6 @@ NE43 7EJ
 
 **General & Support Enquiries:** [irawatt@workforcevision.co.uk](mailto:irawatt@workforcevision.co.uk)  
 **Director:** Ira Watt  
-**Phone:** +44 7508 116845  
 
 ---
 

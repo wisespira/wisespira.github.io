@@ -41,4 +41,43 @@ Once purchased a Licenses needs to be assigned to individuals or groups in your 
 | SegmentIndex   | Whole number (integer)   | LineString index   | Identifies the line segment within the feature. Equivalent to individual LineString parts inside a MultiLineString. Use 0 for the first segment, 1 for the second, etc. |
 | PointIndex     | Whole number (integer)   | Vertex order       | Defines the order of vertices along a segment. Equivalent to the implicit point order in a LineString. Points must be sequential (0, 1, 2, …) for the line to draw correctly. |
 
+---
+
+## Key Features
+
+- **Fully Interactive 3D Globe**  
+  Visualise your data on a responsive, rotatable 3D globe, enabling users to explore global patterns and regional detail from any angle.
+
+- **Points, Arcs, and Paths**  
+  Display points for locations, arcs for radial flows (such as air travel, migration, or trade volumes), and paths for continuous routes such as undersea cables, shipping lanes, or supply chains.
+
+- **Ideal for Radial and Flow-Based Analysis**  
+  Perfect for use cases including population movement, airline routes, global supply chains, trade routes, and telecommunications infrastructure.
+
+- **Interactive Point Labels**  
+  Add configurable labels to points to surface key information directly on the globe, improving clarity and storytelling without cluttering the report.
+
+- **Cross-Filtering with Power BI**  
+  Click on points within the globe to filter and interact with other visuals in your report, enabling seamless exploratory analysis across your entire dataset.
+
+- **High-Performance Rendering**  
+  Designed to handle large global datasets efficiently, allowing you to visualise complex networks and thousands of locations smoothly within Power BI.
+
+---
+
+## Use This Visual For
+
+- **Global Population Distribution**  
+  Analyse population density and movement patterns across countries and regions using points and radial arcs.
+
+- **Transportation & Air Travel**  
+  Visualise airline routes, passenger flows, and global connectivity through dynamic arc-based representations.
+
+- **Supply Chains & Trade Routes**  
+  Map global logistics, shipping lanes, and trade flows to identify bottlenecks, dependencies, and opportunities.
+
+- **Telecommunications & Infrastructure**  
+  Display undersea cables, network routes, and infrastructure paths to better understand global connectivity.
+
+
 
